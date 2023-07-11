@@ -40,3 +40,12 @@ Demo of Quarto book published on Quarto Pub
 > consider using a professional web publishing service like Netlify
 > instead.”
 > ([source](https://quarto.org/docs/publishing/quarto-pub.html#overview))
+
+**Rendering with GitHub Action:** Quarto books can be [automatically
+rendered with each push to main using GitHub
+Action](https://quarto.org/docs/publishing/quarto-pub.html#github-action),
+but the technical needs outweigh the benefits as of writing this. For
+examples of encountered issues, see
+[judith-bourque/quarto-pub](https://github.com/judith-bourque/quarto-pub)
+and
+[judith-bourque/quarto-pub-2](https://github.com/judith-bourque/quarto-pub-2).
