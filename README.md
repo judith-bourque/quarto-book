@@ -22,12 +22,22 @@ The book is available online at
 
 4.  Add `/_book/` to `.gitignore`
 
-5.  [Set up
+## Writing an open-source book
+
+1.  [Set up
     renv](https://quarto.org/docs/publishing/quarto-pub.html#prerequisites)
     with `renv::init()`
 
-6.  [Protect main
+2.  [Protect main
     branch](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule)
+
+3.  Add a license
+
+### See also
+
+- [How to win friends & write an open-source
+  book](https://geocompr.github.io/user_19/presentation/#1) by Jakub
+  Nowosad, Robin Lovelace & Jannes Muenchow
 
 ## Update book website
 
