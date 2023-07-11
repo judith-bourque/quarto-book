@@ -6,7 +6,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-Demo of Quarto book published on Quarto Pub
+Proof of concept of a Quarto book published on Quarto Pub
 
 The book is available online at
 [judith-bourque.quarto.pub/quarto-book](https://judith-bourque.quarto.pub/quarto-book/)
