@@ -22,3 +22,7 @@ Demo of Quarto book published on Quarto Pub
 
 5.  [Protect main
     branch](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule)
+
+## Update book website
+
+1.  In your terminal, run `quarto publish quarto-pub`
