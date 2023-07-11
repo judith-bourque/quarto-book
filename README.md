@@ -31,3 +31,12 @@ Demo of Quarto book published on Quarto Pub
 1.  Update renv with `renv::snapshot()`
 
 2.  In your terminal, run `quarto publish quarto-pub`
+
+## Notes
+
+> “Quarto Pub sites are publicly visible, can be no larger than 100 MB
+> and have a softlimit of 10 GB of bandwidth per month. If you want to
+> authenticate users, host larger sites, or use a custom domain,
+> consider using a professional web publishing service like Netlify
+> instead.”
+> ([source](https://quarto.org/docs/publishing/quarto-pub.html#overview))
