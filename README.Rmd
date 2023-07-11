@@ -27,9 +27,11 @@ Demo of Quarto book published on Quarto Pub
 
 3.  [Publish a Quarto book on Quarto Pub](https://quarto.org/docs/publishing/quarto-pub.html)
 
-4.  [Set up renv](https://quarto.org/docs/publishing/quarto-pub.html#prerequisites)
+4.  Add `/_book/` to `.gitignore`
 
-5.  [Protect main branch](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule)
+5.  [Set up renv](https://quarto.org/docs/publishing/quarto-pub.html#prerequisites)
+
+6.  [Protect main branch](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule)
 
 ## Update book website
 
