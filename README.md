@@ -8,6 +8,9 @@
 
 Demo of Quarto book published on Quarto Pub
 
+The book is available online at
+[judith-bourque.quarto.pub/quarto-book](https://judith-bourque.quarto.pub/quarto-book/)
+
 ## Create the book
 
 1.  [Create a book using Quarto](https://quarto.org/docs/books/)
