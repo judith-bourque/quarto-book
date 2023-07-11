@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: c77748df-532d-40f2-a8d6-c301503cb821
+      url: 'https://judith-bourque.quarto.pub/quarto-book'
