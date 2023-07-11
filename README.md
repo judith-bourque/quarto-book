@@ -28,4 +28,6 @@ Demo of Quarto book published on Quarto Pub
 
 ## Update book website
 
-1.  In your terminal, run `quarto publish quarto-pub`
+1.  Update renv with `renv::snapshot()`
+
+2.  In your terminal, run `quarto publish quarto-pub`
