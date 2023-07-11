@@ -2,8 +2,8 @@ project:
   type: book
 
 book:
-  title: "quarto-book"
-  author: "Norah Jones"
+  title: "Le livre de Judith"
+  author: "Judith Bourque"
   date: "7/11/2023"
   chapters:
     - index.qmd
