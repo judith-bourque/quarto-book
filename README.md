@@ -17,10 +17,33 @@ The book is available online at
 
 2.  Push book to GitHub repo
 
-3.  [Publish a Quarto book on Quarto
+3.  Add `/_book/` to `.gitignore`
+
+## Publish the book on Quarto Pub
+
+> “Quarto Pub sites are publicly visible, can be no larger than 100 MB
+> and have a softlimit of 10 GB of bandwidth per month. If you want to
+> authenticate users, host larger sites, or use a custom domain,
+> consider using a professional web publishing service like Netlify
+> instead.”
+> ([source](https://quarto.org/docs/publishing/quarto-pub.html#overview))
+
+Publish the book for the first time
+
+1.  [Publish a Quarto book on Quarto
     Pub](https://quarto.org/docs/publishing/quarto-pub.html)
 
-4.  Add `/_book/` to `.gitignore`
+Update the book website
+
+1.  Update renv with `renv::snapshot()`
+
+2.  In your terminal, run `quarto publish quarto-pub`
+
+### What if I don’t want to publish the book right now?
+
+You can render the book to PDF instead
+
+1.  In your terminal, run `quarto render --to pdf`
 
 ## Writing an open-source book
 
@@ -39,22 +62,7 @@ The book is available online at
   book](https://geocompr.github.io/user_19/presentation/#1) by Jakub
   Nowosad, Robin Lovelace & Jannes Muenchow
 
-## Update book website
-
-1.  Update renv with `renv::snapshot()`
-
-2.  In your terminal, run `quarto publish quarto-pub`
-
-## Notes
-
-**Publishing on Quarto Pub:**
-
-> “Quarto Pub sites are publicly visible, can be no larger than 100 MB
-> and have a softlimit of 10 GB of bandwidth per month. If you want to
-> authenticate users, host larger sites, or use a custom domain,
-> consider using a professional web publishing service like Netlify
-> instead.”
-> ([source](https://quarto.org/docs/publishing/quarto-pub.html#overview))
+## Publishing the book automatically
 
 **Rendering with GitHub Action:** Quarto books can be [automatically
 rendered with each push to main using GitHub
