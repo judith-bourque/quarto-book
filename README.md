@@ -17,10 +17,26 @@ The book is available online at
 
 2.  Push book to GitHub repo
 
-3.  [Publish a Quarto book on Quarto
+3.  Add `/_book/` to `.gitignore`
+
+## Publish the book on Quarto Pub
+
+Publish the book for the first time
+
+1.  [Publish a Quarto book on Quarto
     Pub](https://quarto.org/docs/publishing/quarto-pub.html)
 
-4.  Add `/_book/` to `.gitignore`
+Update the book website
+
+1.  Update renv with `renv::snapshot()`
+
+2.  In your terminal, run `quarto publish quarto-pub`
+
+### What if I don’t want to publish the book right now?
+
+You can render the book to PDF instead
+
+1.  In your terminal, run `quarto render --to pdf`
 
 ## Writing an open-source book
 
@@ -38,12 +54,6 @@ The book is available online at
 - [How to win friends & write an open-source
   book](https://geocompr.github.io/user_19/presentation/#1) by Jakub
   Nowosad, Robin Lovelace & Jannes Muenchow
-
-## Update book website
-
-1.  Update renv with `renv::snapshot()`
-
-2.  In your terminal, run `quarto publish quarto-pub`
 
 ## Notes
 
